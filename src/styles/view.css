@@ -1,0 +1,17 @@
+.view a{
+    width: 15%;
+}
+
+.view{
+    margin: 20px 0;
+}
+
+.view img{
+    width: 80% !important;
+}
+
+@media (max-width: 768px) {
+    .view img{
+        width: 100% !important;
+    }
+}

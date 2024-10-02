@@ -1,0 +1,67 @@
+.con-pos i {
+  font-size: 40px;
+  position: relative;
+  right: -94%;
+}
+
+.con-pos {
+  padding: 20px;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.card {
+  height: 60vh;
+  position: relative;
+}
+
+.card img {
+  height: 20vh;
+}
+
+.card .card-body {
+  height: 15vh;
+  overflow: hidden;
+}
+
+.card i {
+  width: 15%;
+  color: black;
+  font-size: 40px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.card i.del {
+  color: red;
+  top: 0;
+  left: 0;
+  transform: translate(-2%, -50%);
+}
+
+.card i.see {
+  bottom: 0;
+  right: 0;
+  transform: translate(-200%, -80%);
+  font-size: 30px;
+}
+.card i.edit {
+  bottom: 0;
+  right: 0;
+  transform: translate(-50%, -80%);
+  font-size: 30px;
+}
+
+
+@media (max-width: 768px) {
+  .con-pos i {
+    right: -80%;
+  }
+  .card {
+    height: 60vh;
+    position: relative;
+    transform: translateX(50px);
+  }
+}

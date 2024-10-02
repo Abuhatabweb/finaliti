@@ -1,0 +1,15 @@
+img {
+  width: 100% !important;
+  height: 100%;
+}
+
+.slider-css,
+img {
+  height: 50vh;
+  margin-bottom: 10px;
+}
+
+.slider-css{
+  width: 98%;
+  margin: 10px 1%;
+}

@@ -1,0 +1,11 @@
+.foot {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+ul {
+  margin-top: 10px !important;
+}

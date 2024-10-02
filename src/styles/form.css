@@ -1,0 +1,13 @@
+.sec-form{
+    width: 40%;
+    padding: 20px;
+    margin: 50px auto !important;
+    box-shadow: 0 0 7px #afafaf;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .sec-form{
+        width: 90%;
+    }
+  }

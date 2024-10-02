@@ -1,0 +1,22 @@
+.hero-sec {
+  background-image: url("https://cdn.prod.website-files.com/5d27c9116c864d2e3ab8eee3/627d634183e9cd8682ac3cd0_Group%2088%20(2).png");
+  height: 450px;
+  margin: 20px ;
+}
+
+.mask {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+}
+
+.cont{
+  width: 97% !important;
+  margin: 20px auto !important;
+  box-shadow: 0 0 11px #c7c7c7;
+}
+
+@media (max-width: 768px) {
+  .cont{
+    width: 90% !important;
+  }
+}
